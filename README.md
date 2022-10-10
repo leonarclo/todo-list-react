@@ -60,6 +60,9 @@ $ git clone https://github.com/leonarclo/todo-list-react.git
 # Entre no diretório:
 $ cd todo-list-react
 
+# Instalar dependências:
+$ npm install
+
 # Visualizaçao:
 $ npm start
 
