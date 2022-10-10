@@ -48,9 +48,11 @@ export const Checkbox = styled.div`
   label {
     display: flex;
     align-items: center;
+    cursor: pointer;
 
     input {
       margin-right: 15px;
+      cursor: pointer;
     }
   }
 
