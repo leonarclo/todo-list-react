@@ -51,7 +51,8 @@ export const CloseModal = styled.button`
 export const Title = styled.label`
   input {
     padding: 10px;
-    border: 2px solid var(--secondary-blue);
+    border: ${({ req }) =>
+      req ? "2px solid var(--red)" : "2px solid var(--secondary-blue)"};
     border-radius: 5px;
     width: 100%;
     font-size: 16px;

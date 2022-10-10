@@ -56,7 +56,7 @@ export const Checkbox = styled.div`
 
   h3 {
     color: ${(props) =>
-      props.checked ? "var(--grey)" : "var(--secondary-blue)"};
+      props.check ? "var(--grey)" : "var(--secondary-blue)"};
     text-transform: uppercase;
     text-decoration-line: ${(props) => (props.check ? "line-through" : "")};
   }
