@@ -14,13 +14,9 @@ function TaskContainer({ item, checked, handleEditTask, removeTask }) {
     <Container key={item.id} check={item.completed}>
       <Task check={item.completed}>
         <span>Criado em: {item.inclusionDate}</span>
-        <Checkbox>
+        <Checkbox check={item.completed}>
           <label>
-            <input
-              type="checkbox"
-              onChange={() => checked(item.id)}
-              checked={item.completed}
-            />
+            <input type="checkbox" onChange={() => checked(item.id)} />
             <div>
               <h3>{item.title}</h3>
               <h4>{item.description}</h4>

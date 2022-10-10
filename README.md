@@ -1,75 +1,72 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+<h1 align="center">
+  Crud - Lista de Tarefas com React
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/todo-list-react">
+  <img src="https://img.shields.io/github/last-commit/todo-list-react">
+  <img src="https://img.shields.io/github/license/todo-list-react">
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<p align="center">
+ <a href="#sobre-o-projeto">Sobre</a> •
+ <a href="#funcionalidades">Funcionalidades</a> • 
+  <a href="#dependências">Dependências</a> • 
+ <a href="#como-executar-o-projeto">Como executar</a> • 
+ <a href="#licença">Licença</a> 
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📑 Sobre o projeto
 
-### `npm test`
+Projeto desenvolvido como teste técnico para a empresa MindTech, com o intuito de mostrar algumas das minhas habilidades em desenvolvimento front-end, neste caso utilizando a biblioteca ReactJS.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📌 Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] Adicionar uma nova tarefa
+- [x] Marcar tarefa como concluída
+- [x] Remover uma tarefa
+- [x] Modal de criação/edição de tarefa
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧲 Dependências
 
-### `npm run eject`
+- [x] **[ESLint](https://eslint.org/)**
+- [x] **[Webpack](https://webpack.js.org/)**
+- [x] **[Babel](https://babeljs.io/)**
+- [x] **[Date FNS](https://date-fns.org/)**
+- [x] **[Styled Components](https://styled-components.com/)**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Como executar o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Pré-requisitos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Além de um <u>navegador de internet atualizado</u>, você precisa ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e um editor de código como [VSCode](https://code.visualstudio.com/). Então, siga as instruções abaixo:
 
-## Learn More
+```bash
+# Clone este repositório:
+$ git clone https://github.com/leonarclo/todo-list-react.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Entre no diretório:
+$ cd todo-list-react
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Visualizaçao:
+$ npm start
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📝 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# todo-list-react
-Projeto desenvolvido como desafio técnico da empresa MindTech
->>>>>>> def8ef4f2d2933acf614dead43418ef2a69d03bc
+Este projeto está licenciado sob a licença MIT. Para mais detalhes, acesse o arquivo [LICENSE.md](https://github.com/leonarclo/todo-list-react/blob/main/LICENSE).
