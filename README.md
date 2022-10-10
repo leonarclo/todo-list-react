@@ -2,8 +2,6 @@
   Crud - Lista de Tarefas com React
 </h1>
 
----
-
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/leonarclo/todo-list-react">
   <img src="https://img.shields.io/github/last-commit/leonarclo/todo-list-react">
