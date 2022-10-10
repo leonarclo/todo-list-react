@@ -5,9 +5,9 @@
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/todo-list-react">
-  <img src="https://img.shields.io/github/last-commit/todo-list-react">
-  <img src="https://img.shields.io/github/license/todo-list-react">
+  <img src="https://img.shields.io/github/repo-size/leonarclo/todo-list-react">
+  <img src="https://img.shields.io/github/last-commit/leonarclo/todo-list-react">
+  <img src="https://img.shields.io/github/license/leonarclo/todo-list-react">
 </p>
 
 ---
