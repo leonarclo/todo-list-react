@@ -22,7 +22,7 @@
 
 ## 📑 Sobre o projeto
 
-Projeto desenvolvido como teste técnico para a empresa MindTech, com o intuito de mostrar algumas das minhas habilidades em desenvolvimento front-end, neste caso utilizando a biblioteca ReactJS.
+Projeto desenvolvido como teste técnico para uma vaga de estágio, com o intuito de mostrar algumas das minhas habilidades em desenvolvimento front-end, neste caso utilizando a biblioteca ReactJS.
 
 ---
 
