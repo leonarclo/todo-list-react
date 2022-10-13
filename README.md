@@ -2,8 +2,6 @@
   Crud - Lista de Tarefas com React
 </h1>
 
----
-
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/leonarclo/todo-list-react">
   <img src="https://img.shields.io/github/last-commit/leonarclo/todo-list-react">
@@ -24,7 +22,7 @@
 
 ## 📑 Sobre o projeto
 
-Projeto desenvolvido como teste técnico para a empresa MindTech, com o intuito de mostrar algumas das minhas habilidades em desenvolvimento front-end, neste caso utilizando a biblioteca ReactJS.
+Projeto desenvolvido como teste técnico para uma vaga de estágio, com o intuito de mostrar algumas das minhas habilidades em desenvolvimento front-end, neste caso utilizando a biblioteca ReactJS.
 
 ---
 
@@ -59,6 +57,9 @@ $ git clone https://github.com/leonarclo/todo-list-react.git
 
 # Entre no diretório:
 $ cd todo-list-react
+
+# Instalar dependências:
+$ npm install
 
 # Visualizaçao:
 $ npm start
