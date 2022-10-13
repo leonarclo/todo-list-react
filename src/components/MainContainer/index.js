@@ -1,18 +1,28 @@
 import { format, parseISO } from "date-fns";
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import Form from "../Form";
 import AddTask from "../AddTask";
 import TaskModal from "../Modal";
 import { Container } from "./style";
+import { TasksContext } from "../../context/TasksContext";
 
 function MainContainer() {
-  const [titleTask, setTitleTask] = useState("");
-  const [descriptionTask, setDescriptionTask] = useState("");
-  const [dateTask, setDateTask] = useState("");
-  const [taskList, setTaskList] = useState([]);
-  const [isOpenModal, setIsOpenModal] = useState(false);
-  const [editingTask, setEditingTask] = useState(false);
-  const [editID, setEditID] = useState(null);
+  const {
+    titleTask,
+    setTitleTask,
+    descriptionTask,
+    setDescriptionTask,
+    dateTask,
+    setDateTask,
+    taskList,
+    setTaskList,
+    isOpenModal,
+    setIsOpenModal,
+    editingTask,
+    setEditingTask,
+    editID,
+    setEditID,
+  } = useContext(TasksContext);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -97,26 +107,13 @@ function MainContainer() {
       {" "}
       <Container>
         <h1>Lista de tarefas - MindTech</h1>
-        <AddTask setIsOpenModal={setIsOpenModal} />
+        <AddTask />
         <Form
-          taskList={taskList}
           checked={checked}
           handleEditTask={handleEditTask}
           removeTask={removeTask}
         />
-        {isOpenModal && (
-          <TaskModal
-            isOpenModal={isOpenModal}
-            titleTask={titleTask}
-            setTitleTask={setTitleTask}
-            setIsOpenModal={setIsOpenModal}
-            handleSubmit={handleSubmit}
-            descriptionTask={descriptionTask}
-            setDescriptionTask={setDescriptionTask}
-            dateTask={dateTask}
-            setDateTask={setDateTask}
-          />
-        )}
+        {isOpenModal && <TaskModal handleSubmit={handleSubmit} />}
       </Container>
     </>
   );

@@ -1,4 +1,5 @@
-import { useRef } from "react";
+import { useRef, useContext } from "react";
+import { TasksContext } from "../../context/TasksContext";
 import {
   Container,
   Modal,
@@ -9,16 +10,17 @@ import {
   Save,
 } from "./style";
 
-function TaskModal({
-  setIsOpenModal,
-  handleSubmit,
-  titleTask,
-  setTitleTask,
-  descriptionTask,
-  setDescriptionTask,
-  dateTask,
-  setDateTask,
-}) {
+function TaskModal({ handleSubmit }) {
+  const {
+    setIsOpenModal,
+    titleTask,
+    setTitleTask,
+    descriptionTask,
+    setDescriptionTask,
+    dateTask,
+    setDateTask,
+  } = useContext(TasksContext);
+
   const bgModal = useRef(null);
 
   function handleOutsideClick(event) {
